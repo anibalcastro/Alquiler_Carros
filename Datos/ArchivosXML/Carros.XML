@@ -109,7 +109,7 @@
     <modelo>Yaris</modelo>
     <estilo>Sedan</estilo>
     <color>Azul</color>
-    <estado>Disponible</estado>
+    <estado>Alquilado</estado>
   </Carros>
   <Carros>
     <placa>MNB</placa>

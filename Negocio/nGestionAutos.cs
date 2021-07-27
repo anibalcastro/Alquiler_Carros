@@ -16,7 +16,7 @@ namespace Negocio
         List<string> modelo_Nissan = new List<string> { "Sentra", "Pathfinder", "Qashqai" };
 
         List<string> Estilo_Sedan = new List<string> { "Elantra", "Accent", "Corolla", "Yaris", "Sentra" };
-        List<string> Estilo_4X4 = new List<string> { "Tucson", "Rav4", "Pathfinder", "Qashqi" };
+        List<string> Estilo_4X4 = new List<string> { "Tucson", "Rav4", "Pathfinder", "Qashqai" };
 
 
         XmlDocument doc;

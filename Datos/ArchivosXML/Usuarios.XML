@@ -48,4 +48,12 @@
     <contrasenna>123</contrasenna>
     <rol>2</rol>
   </usuario>
+  <usuario>
+    <cedula>13102005</cedula>
+    <nombre>Pui Castro</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>fc79797@gmail.com</correo_electronico>
+    <contrasenna>123</contrasenna>
+    <rol>2</rol>
+  </usuario>
 </Login>

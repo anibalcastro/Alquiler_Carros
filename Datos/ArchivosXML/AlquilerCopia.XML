@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Alquilados>
   <Usuario>
-    <cedula>603030996</cedula>
-    <nombre>Massiel Ponce</nombre>
-    <genero>Femenino</genero>
-    <correo_electronico>massiel@gmail.com</correo_electronico>
+    <cedula>13102005</cedula>
+    <nombre>Pui Castro</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>fc79797@gmail.com</correo_electronico>
     <Alquiler>
-      <placa>MNB</placa>
-      <año>2020</año>
-      <marca>Nissan</marca>
-      <modelo>Sentra</modelo>
+      <placa>FTH893</placa>
+      <año>2021</año>
+      <marca>Toyota</marca>
+      <modelo>Yaris</modelo>
       <estilo>Sedan</estilo>
-      <color>Gris</color>
-      <silla_bebes>Si</silla_bebes>
+      <color>Azul</color>
+      <silla_bebes>No</silla_bebes>
       <gps>Si</gps>
-      <dias>2</dias>
-      <monto_total>26208</monto_total>
-      <fecha_retiro>27/7/2021 00:00:00</fecha_retiro>
-      <fecha_devolucion>29/7/2021 00:00:00</fecha_devolucion>
+      <dias>4</dias>
+      <monto_total>41600</monto_total>
+      <fecha_retiro>28/7/2021 00:00:00</fecha_retiro>
+      <fecha_devolucion>1/8/2021 00:00:00</fecha_devolucion>
     </Alquiler>
   </Usuario>
 </Alquilados>
