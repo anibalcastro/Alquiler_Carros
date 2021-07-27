@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Login>
+  <usuario>
+    <cedula>208110305</cedula>
+    <nombre>Anibal Castro</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>anibalcastro1515@gmail.com</correo_electronico>
+    <contrasenna>admin</contrasenna>
+    <rol>1</rol>
+  </usuario>
+  <usuario>
+    <cedula>603030996</cedula>
+    <nombre>Massiel Ponce</nombre>
+    <genero>Femenino</genero>
+    <correo_electronico>massiel@gmail.com</correo_electronico>
+    <contrasenna>123</contrasenna>
+    <rol>2</rol>
+  </usuario>
+  <usuario>
+    <cedula>208710330</cedula>
+    <nombre>Fabricio Castro</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>fabriciofcpo@gmail.com</correo_electronico>
+    <contrasenna>123</contrasenna>
+    <rol>2</rol>
+  </usuario>
+  <usuario>
+    <cedula>204310766</cedula>
+    <nombre>Francisco Castro</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>anibalcmiranda@gmail.com</correo_electronico>
+    <contrasenna>123</contrasenna>
+    <rol>2</rol>
+  </usuario>
+  <usuario>
+    <cedula>1234567</cedula>
+    <nombre>Juanito Mora</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>JuanitoMora@gmail.com</correo_electronico>
+    <contrasenna>123</contrasenna>
+    <rol>2</rol>
+  </usuario>
+</Login>
