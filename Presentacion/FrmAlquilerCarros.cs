@@ -335,17 +335,21 @@ namespace Presentacion
             this.dtpDevolucion.Value = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
             objeto = null;
             filtro = null;
+            this.cbGPS.Checked = false;
+            this.cbSilla.Checked = false;
         }
 
         private void btnAlquilar_Click(object sender, EventArgs e)
         {
+            string archivo = @"C:\Users\admin\source\repos\Alquiler_Carros\Datos\ArchivosXML\AlquilerCopia.XML";
             this.capturarDatos();
             nAlquiler.RegistrarAlquiler(objeto);
             nAlquiler.RegistrarAlquilerCopia(objeto);
-            nGestion.modificarDisponibilidad(placa);
-            MessageBox.Show("Vehiculo alquilado", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.limpiar();
-            this.llenarTabla();
+           nGestion.modificarDisponibilidad(placa);
+           MessageBox.Show("Vehiculo alquilado", "INFORMACIÓN", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           nAlquiler.enviarEmail(usuario.correo,archivo);
+           this.limpiar();
+           this.llenarTabla();
         }
     }
 }

@@ -100,4 +100,65 @@
       <fecha_devolucion>29/7/2021 00:00:00</fecha_devolucion>
     </Alquiler>
   </Usuario>
+  <Usuario>
+    <cedula>204310766</cedula>
+    <nombre>Francisco Castro</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>anibalcmiranda@gmail.com</correo_electronico>
+    <Alquiler>
+      <placa>QEW147</placa>
+      <año>2021</año>
+      <marca>Nissan</marca>
+      <modelo>Qashqai</modelo>
+      <estilo>
+      </estilo>
+      <color>Negro</color>
+      <silla_bebes>No</silla_bebes>
+      <gps>Si</gps>
+      <dias>2</dias>
+      <monto_total>20800</monto_total>
+      <fecha_retiro>29/7/2021 00:00:00</fecha_retiro>
+      <fecha_devolucion>31/7/2021 00:00:00</fecha_devolucion>
+    </Alquiler>
+  </Usuario>
+  <Usuario>
+    <cedula>204310766</cedula>
+    <nombre>Francisco Castro</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>anibalcmiranda@gmail.com</correo_electronico>
+    <Alquiler>
+      <placa>ADC789</placa>
+      <año>2021</año>
+      <marca>Nissan</marca>
+      <modelo>Pathfinder</modelo>
+      <estilo>4X4</estilo>
+      <color>Negro</color>
+      <silla_bebes>No</silla_bebes>
+      <gps>Si</gps>
+      <dias>1</dias>
+      <monto_total>7800</monto_total>
+      <fecha_retiro>28/7/2021 00:00:00</fecha_retiro>
+      <fecha_devolucion>29/7/2021 00:00:00</fecha_devolucion>
+    </Alquiler>
+  </Usuario>
+  <Usuario>
+    <cedula>7894</cedula>
+    <nombre>Mario Mora</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>anibalcmiranda@gmail.com</correo_electronico>
+    <Alquiler>
+      <placa>LPM256</placa>
+      <año>2021</año>
+      <marca>Nissan</marca>
+      <modelo>Sentra</modelo>
+      <estilo>Sedan</estilo>
+      <color>Plateado</color>
+      <silla_bebes>Si</silla_bebes>
+      <gps>Si</gps>
+      <dias>1</dias>
+      <monto_total>131040</monto_total>
+      <fecha_retiro>28/7/2021 00:00:00</fecha_retiro>
+      <fecha_devolucion>29/7/2021 00:00:00</fecha_devolucion>
+    </Alquiler>
+  </Usuario>
 </Alquilados>

@@ -40,4 +40,12 @@
     <contrasenna>123</contrasenna>
     <rol>2</rol>
   </usuario>
+  <usuario>
+    <cedula>7894</cedula>
+    <nombre>Mario Mora</nombre>
+    <genero>Masculino</genero>
+    <correo_electronico>anibalcmiranda@gmail.com</correo_electronico>
+    <contrasenna>123</contrasenna>
+    <rol>2</rol>
+  </usuario>
 </Login>

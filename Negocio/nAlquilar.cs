@@ -255,26 +255,32 @@ namespace Negocio
         }
 
         // MAIL
-        public bool enviarEmail()
+        public bool enviarEmail(string destino, string archivo)
         {
             bool valido = false;
 
             System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
-            mmsg.To.Add("anibalcastro1515@gmail.com");
+            mmsg.To.Add(destino);
             mmsg.Subject = "Confirmación de alquiler de vehiculo";
             mmsg.SubjectEncoding = System.Text.Encoding.UTF8;
             mmsg.Bcc.Add("adobe.rentacar12@gmail.com"); //ENVIAR COPIA
 
-            mmsg.Body = "PRUEBA";
+            mmsg.Body = "CONFIRMACIÓN DE ALQUILER";
             mmsg.BodyEncoding = System.Text.Encoding.UTF8;
-            mmsg.IsBodyHtml = true;
+            mmsg.IsBodyHtml = false;
+
+            if (System.IO.File.Exists(@archivo))
+            {
+                mmsg.Attachments.Add(new Attachment(@archivo));
+            }
 
             mmsg.From = new System.Net.Mail.MailAddress("adobe.rentacar12@gmail.com");
             System.Net.Mail.SmtpClient cliente = new System.Net.Mail.SmtpClient();
             cliente.Credentials = new System.Net.NetworkCredential("adobe.rentacar12@gmail.com", "CodigoC#");
-            cliente.Host = "smtp.gmail.com";
+            
             cliente.Port = 587;
             cliente.EnableSsl = true;
+            cliente.Host = "smtp.gmail.com";
 
             try
             {
