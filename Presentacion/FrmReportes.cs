@@ -155,7 +155,7 @@ namespace Presentacion
         public void grafico()
         {
            
-            String[] serie = { "Toyota", "Hyundai", "Nissan" };
+            String[] serie = { "Elantra", "Accent", "Corolla", "Yaris", "Sentra", "Tucson", "Rav4", "Pathfinder", "Qashqai" };
             int[] reporte = nAlquiler.marcasUtilizadas().ToArray();
 
             chartPorcentaje.Titles.Add("Porcentaje");

@@ -387,19 +387,19 @@ namespace Negocio
 
         public List<int> marcasUtilizadas()
         {
-            List<string> marcas = new List<string>() { "Toyota", "Hyundai", "Nissan" };
+            List<string> modelos = new List<string>() { "Elantra", "Accent", "Corolla", "Yaris", "Sentra","Tucson", "Rav4", "Pathfinder", "Qashqai" };
             List<ObjAlquiler> alquiler = this.llenarListaAlquilados();
 
             List<int> lista = new List<int>();
 
             
-            for (int x = 0; x < marcas.Count; x++)
+            for (int x = 0; x < modelos.Count; x++)
             {
                 int contador = 0;
                 
                 for (int y = 0; y < alquiler.Count; y++)
                 {
-                    if (alquiler[y].marca.Equals(marcas[x]))
+                    if (alquiler[y].modelo.Equals(modelos[x]))
                     {
                         contador = contador + 1;
                     }

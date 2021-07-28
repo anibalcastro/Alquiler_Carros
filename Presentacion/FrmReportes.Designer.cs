@@ -115,11 +115,17 @@ namespace Presentacion
             this.chartPorcentaje.Legends.Add(legend1);
             this.chartPorcentaje.Location = new System.Drawing.Point(24, 79);
             this.chartPorcentaje.Name = "chartPorcentaje";
+            series1.BorderColor = System.Drawing.Color.Transparent;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.CustomProperties = "PieLabelStyle=Disabled";
             series1.Label = "#VALX   #PERCENT{P2}";
+            series1.LabelBackColor = System.Drawing.Color.Transparent;
+            series1.LabelToolTip = "#VALX";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
+            series1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.BrightPastel;
+            series1.ToolTip = "#VALX";
             this.chartPorcentaje.Series.Add(series1);
             this.chartPorcentaje.Size = new System.Drawing.Size(490, 405);
             this.chartPorcentaje.TabIndex = 6;
